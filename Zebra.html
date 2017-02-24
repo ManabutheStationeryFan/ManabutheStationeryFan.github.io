@@ -1,0 +1,153 @@
+<HTML>
+<HEAD>
+	<TITLE> Zebra </TITLE>
+	<STYLE type='text/css'> nav ul ul {
+display: none;
+}
+
+
+/*specifies that the dropdown will display as 200 px wide blocks */
+nav ul li:hover > ul {
+display: block;
+width: 200px;
+}
+
+/* original look of the menu before mouseover. Also need to specify that it will have a table shape. Border radius controls how round the corners are. */
+nav ul {
+background: #FF5733; 
+box-shadow: 0px 0px 9px rgba(0,0,0,0.8);
+padding: 0 200px;
+padding-top: 0px;
+border-radius: 0px; 
+list-style: none;
+position: relative;
+display: inline-table;
+width: 80%;
+}
+
+/*This sets the width, color, alignment of the text for the dropdown items */
+nav ul li {
+float: left;
+width: 200px;
+text-align: center;
+color: #FFFFFF;
+}
+
+/*THIS IS WHERE YOU CAN SET THE COLOR FOR THE MAIN MENU ITEM WHEN YOU GO OVER IT */
+nav ul li:hover {
+background: linear-gradient(top, #4f5964 0%, #000000 40%);
+background: -moz-linear-gradient(top, #4f5964 0%, #000000 40%);
+background: -webkit-linear-gradient(top, #4f5964 0%,#000000 40%);
+}
+
+/* color for the link in the menu*/
+nav ul li:hover a {
+color: #fff;
+}
+
+nav ul li a {
+display: block; padding: 25px 40px;
+
+}
+
+nav ul ul {
+background: #5f6975; border-radius: 0px; padding: 0px;
+position: absolute; top: 100%; 
+}
+
+nav ul ul li {
+float: none; 
+border-top: 1px solid #000000; /*borders between menu items */
+border-bottom: 1px solid #000000;
+position: relative;
+padding: 0px 0px; 
+text-align: center;
+}
+
+nav ul ul li a {
+padding: 0px 0px;
+color: #fff;
+} 
+
+/*background color when you go over the links can also change color of text here if you want */
+nav ul ul li a:hover {
+background: #000000;
+background: linear-gradient(top, #4f5964 0%, #000000 40%);
+background: -moz-linear-gradient(top, #4f5964 0%, #000000 40%);
+background: -webkit-linear-gradient(top, #4f5964 0%,#000000 40%);
+}</STYLE>
+	<BR> 
+<NAV>
+<UL>
+	<LI>Navi
+		<UL>
+			<LI><A href='My Japanese Stationary Blog.html'>Home Page</A></LI>
+		</UL>
+	</LI>
+	<LI>Intro
+		<UL>
+			<LI><A href='Brief Intro to Japanese Stationaries.html'>History</A></LI>
+		</UL>
+	</LI>
+	<LI> Major Manufacturers
+		<UL>
+			<LI><A href='Mitsubishi Pencil.html'> Mitsubishi Pencil</A></LI>
+			<LI><A href='Pilot.html'>Pilot Co. Ltd.</A></LI>
+			<LI><A href='Zebra.html'>Zebra Co. Ltd.</A></LI>
+			<LI><A href='Tombow Pencil.html'>Tombow Pencil</A></LI>
+			<LI><A href='Pentel.html'>Pentel Co. Ltd.</A></LI>
+			<LI><A href='Kokuyo-st.html'>Kokuyo Ltd. Stationary Branch</A></LI>
+			<LI><A href='Platinum-P.html'>Platinum Fountain Pens</A></LI>
+			<LI><A href='Sailor-P.html'>Sailor Fountain Pens</A></LI>
+			<LI><A href='Max.html'>Max Co. Ltd</A></LI>
+		</UL>
+	</LI>
+	<LI> About this website
+		<UL>
+			<LI><A href='Author.html'>Author</A></LI>
+			<LI><A href='Website.html'>Purpose</A></LI>
+			<LI><A href='Bib.html'>Bibliography</A></LI>
+		</UL>
+	</LI>
+</UL>
+</NAV>
+<BODY>
+<FONT color='#000000' size='20' face='Chalkboard SE'>
+<CENTER> Zebra Corp. <IMG src='images/Zebra.png'></CENTER>
+<FONT color='#000000' size='6' face='Osaka'>
+Zebra was founded as Ishikawa Pen Manufacture Company in 1896. It was changed to Zebra Co. Ltd, the present name, in 1963. It is the first manufacturer to produce ball-point pens in Japan The first ball-point pen in Japan, No. 5911, went on sale at 1959. Now, it still produces ball-point pens for Japanese people. 
+<BR><CENTER><TABLE border='1'>
+<TR> 
+	<TD> Corporation name </TD>
+	<TD> Zebra Co. Ltd </TD>
+</TR>
+<TR> 
+	<TD> Found year </TD>
+	<TD> 1896 </TD>
+</TR>
+<TR>
+	<TD> Headquarters </TD>
+	<TD> Shinjuku, Tokyo, Japan </TD>
+</TR>
+<TR>
+	<TD> Famous products </TD>
+	<TD> Sarasa: gel-ink pens, Surari: emulsion ink pens (oil-based ink plus gel ink), Sharbo: the first multi-purpose pen, and DelGuard, its first unbreakable sharp pencil* </TD>
+</TR>
+</TABLE>
+<CENTER> <IMG src='images/Products.png' name='bigpic'></IMG>
+<TABLE>
+	<TR>
+		<TD><IMG height='30' src='Images/Gold.psd' name='b1' onclick="src='Images/Gold.psd';b2.src='Images/Light Green.psd';b3.src='Images/Light Green.psd';b4.src='Images/Light Green.psd';b5.src='Images/Light Green.psd';bigpic.src='images/Products.png'"></TD>
+		<TD><IMG height='30' src='images/Light Green.psd' name='b2' onclick="src='images/Gold.psd';b1.src='images/Light Green.psd';b3.src='images/Light Green.psd';b4.src='images/Light Green.psd';b5.src='images/Light Green.psd';bigpic.src='images/JJ31.jpg'"></TD>
+		<TD><IMG height='30' src='images/Light Green.psd' name='b3' onclick="src='images/Gold.psd';b2.src='images/Light Green.psd';b4.src='images/Light Green.psd';b5.src='images/Light Green.psd';bigpic.src='images/SB26.jpg'"></TD>
+		<TD><IMG height='30' src='images/Light Green.psd' name='b4' onclick="src='images/Gold.psd';b2.src='images/Light Green.psd';b3.src='images/Light Green.psd';b5.src='images/Light Green.psd';bigpic.src='images/SB14.jpg'"></TD>
+		<TD><IMG height='30' src='images/Light Green.psd' name='b5' onclick="src='images/Gold.psd';b2.src='images/Light Green.psd';b3.src='images/Light Green.psd';b4.src='images/Light Green.psd';bigpic.src='images/P-MA85.jpg'"></TD>
+	</TR>	
+</TABLE>
+<FONT color='#CD5C5C' size='8' face='Luminari'>
+Click the color buttons above to see more pictures!
+<FONT color='#00BFFF' size='6' face='LingWai TC'>
+<BR> * The first unbreakable pencil in the Japanese market is Platinum Fountain Pen's Oleenu. But its structure is different. How does it work to protect the lead? See this video to find out!
+<BR> <iframe width="560" height="315" src="https://www.youtube.com/embed/Z9qv-AimXFc" frameborder="0" allowfullscreen></iframe> 
+<FONT color='#00BFFF' size='6' face='Helvetica Neue'>
+<BR> Please note that this video shows the new product of DelGuard, the Type-ER, with an improved eraser function, which released on November 21, 2016 to the Japanese market. 
